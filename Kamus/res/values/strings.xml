@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, showKamus!</string>
+    <string name="app_name">Kamus Indonesia Inggris Karo</string>
+    <string name="kamus">Kamus Indonesia Karo</string>
+    <string name="indo">Indonesia</string>
+    <string name="terjemahken">Terjemahken</string>
+    <string name="ing">Inggris</string>
+    <string name="karo">Karo</string>
+    
+</resources>

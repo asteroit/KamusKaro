@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/kamus"
+    />
+<TextView
+	android:text="@string/indo"
+	android:id="@+id/TextView01"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText
+	android:inputType="none"
+	android:id="@+id/txtInggris"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+/>
+<Button
+	android:text="@string/terjemahken"
+	android:id="@+id/btnTerjemah"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:onClick="getTerjemahan"
+/>
+<TextView
+	android:text="@string/ing"
+	android:id="@+id/TextView03"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+/>
+<EditText
+	android:inputType="none"
+	android:id="@+id/txtIndonesia"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:clickable="false" 
+    android:cursorVisible="false" 
+    android:focusable="false" 
+    android:focusableInTouchMode="false"
+/>
+<TextView
+	android:text="@string/karo"
+	android:id="@+id/TextView04"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+/>
+<EditText
+	android:inputType="none"
+	android:id="@+id/txtBatak"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:clickable="false" 
+    android:cursorVisible="false" 
+    android:focusable="false" 
+    android:focusableInTouchMode="false"
+ />
+ </LinearLayout>
